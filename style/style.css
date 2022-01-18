@@ -15,7 +15,7 @@ h1{
 
 header{
     width: 100%;
-    margin: 0 auto;
+    box-sizing: inherit;
 }
 
 .logo-header{
@@ -72,6 +72,7 @@ img{
 
 .description{
     text-align: left;
+    padding-top: 5px;
 }
 
 p{
