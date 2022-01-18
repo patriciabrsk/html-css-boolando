@@ -34,7 +34,7 @@ header{
 }
 
 .row{
-    margin: 40px;
+    margin: 20px;
     display: inline-block;
 }
 
@@ -46,6 +46,14 @@ header{
     margin: 5px;
 }
 
+.hidden-images{
+    display: none;
+}
+
+.img-1:hover .img-1b{
+    display: inline-block;
+}
+
 .span{
     color: white;
     font-weight: bold;
@@ -54,6 +62,7 @@ header{
     left: 0;
     bottom: 20px;
     padding: 5px 3px;
+    z-index: 2;
 }
 
 img{
@@ -89,7 +98,6 @@ strike{
 
 .discount{
     background-color: red;
-    z-index: 2;
 }
 
 .sustainability{
@@ -100,10 +108,4 @@ strike{
     left: 32px;
 }
 
-.card:hover .heart { 
-    display: block;
-}
 
-.red-heart{
-    display: none;
-}
