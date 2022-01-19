@@ -62,15 +62,15 @@ img{
     height: 100%;
 }
 
-.card-1:hover .img-1{
+.card-image:hover .first-image{
     display: none;
 }
 
-.card-1 .img-1b{
+.card-image .second-image{
     display: none;
 }
 
-.card-1:hover .img-1b{
+.card-image:hover .second-image{
     display: inline-block;
 }
 
@@ -100,10 +100,6 @@ strike{
     background-color: white;
     padding: 8px 10px;
 }
-
-.card-1:hover{
-    background-image: url('./img/1b.webp');
-} 
 
 .discount{
     background-color: red;
