@@ -46,18 +46,6 @@ header{
     margin: 5px;
 }
 
-.hidden-images{
-    display: none;
-}
-
-img-1b{
-    display: none;
-}
-
-img-1b{
-    display
-}
-
 .span{
     color: white;
     font-weight: bold;
@@ -72,6 +60,18 @@ img-1b{
 img{
     width: 100%;
     height: 100%;
+}
+
+.card-1:hover .img-1{
+    display: none;
+}
+
+.card-1 .img-1b{
+    display: none;
+}
+
+.card-1:hover .img-1b{
+    display: inline-block;
 }
 
 .description{
